@@ -115,7 +115,7 @@ public:
 };
 
 int main() {
-    cout << "Ô³êñîâàíèé ñòåê:\n";
+    cout << "Ğ¤Ñ–ĞºÑĞ¾Ğ²Ğ°Ğ½Ğ¸Ğ¹ ÑÑ‚ĞµĞº:\n";
     CharStack s1(3);
     s1.push('A');
     s1.push('B');
@@ -127,7 +127,7 @@ int main() {
         cout << ch << " ";
     }
 
-    cout << "\n\nÄèíàì³÷íèé ñòåê:\n";
+    cout << "\n\nĞ”Ğ¸Ğ½Ğ°Ğ¼Ñ–Ñ‡Ğ½Ğ¸Ğ¹ ÑÑ‚ĞµĞº:\n";
     DynamicCharStack s2(2);
     s2.push('X');
     s2.push('Y');
@@ -140,3 +140,4 @@ int main() {
 
     return 0;
 }
+
